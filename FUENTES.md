@@ -19,15 +19,15 @@ Todas vienen incluidas en el paquete oficial **esp8266 by ESP8266 Community** pa
 
 ## Código externo adaptado
 
-> Completar si se usó código de tutoriales, foros o ejemplos de GitHub. Indicar archivo, función, URL de la fuente y qué se modificó. Si no se usó, escribir: "No se utilizó código externo fuera de lo declarado en la sección de IA."
+No se utilizó código externo de tutoriales, foros ni repositorios. Todo el código fue generado con IA y adaptado por el equipo, como se declara en la sección "Uso de Inteligencia Artificial".
 
 ---
 
 ## Uso de Inteligencia Artificial
 
-### Firmware del dispositivo (`firmware/paso_peatonal/paso_peatonal.ino`)
+### Firmware del dispositivo (`firmware/paso_peatonal2/paso_peatonal2.ino`)
 - **Herramienta:** Claude (Anthropic), noviembre de 2026.
-- **Punto de partida:** una versión inicial del código con un LED, un botón peatonal (D5) y un botón que simulaba el paso del auto (D6). *Completar de dónde vino esa versión inicial.*
+- **Punto de partida:** la versión inicial del código (un LED RGB, un botón peatonal en D5 y un botón que simulaba el paso del auto en D6) también fue generada con IA ([HERRAMIENTA], noviembre de 2026), a partir de instrucciones detalladas del equipo: qué pines usar, qué colores mostrar en cada estado (verde en espera, amarillo intermitente durante 15 s y rojo intermitente al detectar un auto) y que los datos se vieran en una página web por Wi-Fi.
 - **Lo que generó la IA a partir de nuestras indicaciones:**
   - Ampliación a dos LED RGB, uno por poste (pines D1/D2 y D0/D8), mostrando el mismo color.
   - Botones de ambos postes conectados en paralelo al mismo pin (D5).
