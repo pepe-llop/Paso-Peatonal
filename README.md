@@ -103,7 +103,7 @@ Si un vehículo pasa con la luz en verde, se registra como "auto sin advertencia
    `http://arduino.esp8266.com/stable/package_esp8266com_index.json`
 3. Seleccionar la placa **NodeMCU 1.0 (ESP-12E Module)** y el puerto COM correspondiente.
 4. En **Flash Size**, elegir una opción con sistema de archivos (por ejemplo **4MB (FS:2MB)**). Sin esto, el historial no se guarda.
-5. Abrir `paso_peatonal.ino` y subirlo a la placa.
+5. Abrir `paso_peatonal2.ino` y subirlo a la placa.
 6. Abrir el Monitor serie a **115200 baudios**.
 
 > Se necesita un cable USB **de datos**. Los cables que solo cargan no permiten que el computador detecte la placa.
@@ -170,8 +170,8 @@ paso-peatonal-inteligente/
 ├── README.md
 ├── FUENTES.md                 (declaración de librerías, código externo e IA)
 ├── firmware/
-│   └── paso_peatonal/
-│       └── paso_peatonal.ino
+│   └── paso_peatonal2/
+│       └── paso_peatonal2.ino
 ├── hardware/
 │   ├── esquematico.pdf
 │   ├── BOM.xlsx
