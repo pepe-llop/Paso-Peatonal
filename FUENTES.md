@@ -27,7 +27,7 @@ No se utilizó código externo de tutoriales, foros ni repositorios. Todo el có
 
 ### Firmware del dispositivo (`firmware/paso_peatonal2/paso_peatonal2.ino`)
 - **Herramienta:** Claude (Anthropic), noviembre de 2026.
-- **Punto de partida:** la versión inicial del código (un LED RGB, un botón peatonal en D5 y un botón que simulaba el paso del auto en D6) también fue generada con IA ([HERRAMIENTA], noviembre de 2026), a partir de instrucciones detalladas del equipo: qué pines usar, qué colores mostrar en cada estado (verde en espera, amarillo intermitente durante 15 s y rojo intermitente al detectar un auto) y que los datos se vieran en una página web por Wi-Fi.
+- **Punto de partida:** la versión inicial del código (un LED RGB, un botón peatonal en D5 y un botón que simulaba el paso del auto en D6) también fue generada con IA (Claude (Anthropic), noviembre de 2026), a partir de instrucciones detalladas del equipo: qué pines usar, qué colores mostrar en cada estado (verde en espera, amarillo intermitente durante 15 s y rojo intermitente al detectar un auto) y que los datos se vieran en una página web por Wi-Fi.
 - **Lo que generó la IA a partir de nuestras indicaciones:**
   - Ampliación a dos LED RGB, uno por poste (pines D1/D2 y D0/D8), mostrando el mismo color.
   - Botones de ambos postes conectados en paralelo al mismo pin (D5).
