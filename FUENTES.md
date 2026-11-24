@@ -54,4 +54,6 @@ Todas vienen incluidas en el paquete oficial **esp8266 by ESP8266 Community** pa
 
 ### Diseño 3D
 - **Herramienta:** Claude (Anthropic), noviembre de 2026.
-- **Uso:** redacción de un prompt con medidas estimadas para modelar en Fusion 360 los postes y la caja. *Completar qué se modeló finalmente y qué medidas se ajustaron con el pie de metro.*
+- **Uso:** Claude entregó medidas estimadas de los componentes (KY-016, pulsadores, protoboard) y recomendaciones de diseño para impresión 3D (holguras de 0,2–0,4 mm, canal para cables, piezas sin soportes), que se usaron como punto de partida.
+- **Adaptación del equipo:** el equipo modificó el diseño propuesto: cambió el poste recto por uno en forma de L, ajustó las dimensiones de la caja al montaje final y verificó el encaje imprimiendo las piezas en PLA (Bambu Lab) y probándolas con los componentes reales.
+- **Piezas finales:** dos postes en L (81 × 110,5 × 32 mm) con cabezal para el LED y su tapa (24,7 × 21 × 3,5 mm), y una caja electrónica (148 × 44,5 × 139 mm) con tapa desmontable y muesca lateral.
