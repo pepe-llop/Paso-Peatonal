@@ -10,12 +10,10 @@ Todas vienen incluidas en el paquete oficial **esp8266 by ESP8266 Community** pa
 
 | Librería | Versión | Uso en el proyecto | Fuente |
 |---|---|---|---|
-| ESP8266WiFi | Incluida en el core ESP8266 | Crear la red Wi-Fi propia del dispositivo (modo punto de acceso) | https://github.com/esp8266/Arduino |
-| ESP8266WebServer | Incluida en el core ESP8266 | Servidor web que entrega el dashboard y los datos en JSON y CSV | https://github.com/esp8266/Arduino |
-| FS (SPIFFS) | Incluida en el core ESP8266 | Guardar el historial de eventos y los contadores en la memoria flash | https://github.com/esp8266/Arduino |
+| ESP8266WiFi | Incluida en Arduino Cloud Editor (core ESP8266) | Crear la red Wi-Fi propia del dispositivo (modo punto de acceso) | https://github.com/esp8266/Arduino |
+| ESP8266WebServer | Incluida en Arduino Cloud Editor (core ESP8266) | Servidor web que entrega el dashboard y los datos en JSON y CSV | https://github.com/esp8266/Arduino |
+| FS (SPIFFS) | Incluida en Arduino Cloud Editor (core ESP8266) | Guardar el historial de eventos y los contadores en la memoria flash | https://github.com/esp8266/Arduino |
 | time.h | Librería estándar de C | Dar formato de fecha y hora a cada evento | Biblioteca estándar de C |
-
-> Completar la columna "Versión" con la versión del paquete ESP8266 que muestra el Gestor de tarjetas de Arduino.
 
 ---
 
