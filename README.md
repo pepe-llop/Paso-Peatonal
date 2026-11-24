@@ -166,6 +166,7 @@ paso-peatonal-inteligente/
 
 ## Integrantes
 
-- Nombre Apellido
-- Nombre Apellido
-- Nombre Apellido
+- Florencia Riveros
+- Benjamin Rojas
+- Joaquin Diaz
+- Jose Maria Llop
