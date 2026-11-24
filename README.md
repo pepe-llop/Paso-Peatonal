@@ -11,6 +11,18 @@ Prototipo de mesa (maqueta con autitos de juguete) basado en una placa **NodeMCU
 
 En los pasos peatonales, la falta de atención o de respuesta de algunos conductores frente a la presencia de peatones puede generar situaciones de riesgo. La señalización convencional no siempre entrega información activa sobre la intención de cruzar ni permite registrar lo que ocurre durante una advertencia.
 
+**Caso de estudio en terreno (Avance 1):** cruce Carlos Ossandón / Valenzuela Llanos, La Reina.
+
+| Indicador | Resultado |
+|---|---|
+| Conductores que no ceden el paso a peatones | 72,2 % (26 de 36 vehículos; 280 autos observados en 30 min) |
+| Tiempo de espera promedio del peatón | 42,3 s |
+| Usuarios que han presenciado situaciones de riesgo | 77,0 % |
+
+Hoy no existe un registro objetivo de cuántas veces no se respeta el paso ni en qué horario.
+
+**Usuarios:** peatones del sector, que necesitan que su intención de cruzar sea visible, y la Municipalidad de La Reina, que necesita datos para focalizar fiscalización e infraestructura.
+
 ## Solución
 
 Un paso peatonal con dos postes. El peatón presiona un botón para pedir el cruce y el sistema enciende una **advertencia luminosa** (amarillo intermitente). Una **barrera láser** detecta el paso de vehículos. Si un vehículo cruza durante la advertencia, el sistema:
@@ -179,7 +191,7 @@ paso-peatonal-inteligente/
 
 ## Integrantes
 
+- Benjamín Rojas
+- José María Llop
+- Joaquín Díaz
 - Florencia Riveros
-- Joaquin Diaz
-- Benjamin Rojas
-- Jose Maria Llop

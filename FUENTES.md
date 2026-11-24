@@ -29,7 +29,7 @@ Todas vienen incluidas en el paquete oficial **esp8266 by ESP8266 Community** pa
 
 ### Firmware del dispositivo (`firmware/paso_peatonal/paso_peatonal.ino`)
 - **Herramienta:** Claude (Anthropic), noviembre de 2026.
-- **Punto de partida:** una versión inicial del código con un LED, un botón peatonal (D5) y un botón que simulaba el paso del auto (D6). 
+- **Punto de partida:** una versión inicial del código con un LED, un botón peatonal (D5) y un botón que simulaba el paso del auto (D6). *Completar de dónde vino esa versión inicial.*
 - **Lo que generó la IA a partir de nuestras indicaciones:**
   - Ampliación a dos LED RGB, uno por poste (pines D1/D2 y D0/D8), mostrando el mismo color.
   - Botones de ambos postes conectados en paralelo al mismo pin (D5).
