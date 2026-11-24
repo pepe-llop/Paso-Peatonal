@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/35306897/README.md)
 # Paso Peatonal Inteligente
 
 **Sistema preventivo de advertencia y detección de cruces de riesgo**
@@ -157,9 +156,23 @@ Si la luz ambiente interfiere, se puede poner un tubo corto alrededor de la foto
 ```
 paso-peatonal-inteligente/
 ├── README.md
-├── paso_peatonal/
-│   └── paso_peatonal.ino
-└── imagenes/          (fotos del montaje, esquema y maqueta)
+├── FUENTES.md                 (declaración de librerías, código externo e IA)
+├── firmware/
+│   └── paso_peatonal/
+│       └── paso_peatonal.ino
+├── hardware/
+│   ├── esquematico.pdf
+│   ├── BOM.xlsx
+│   └── fotos/                 (prototipo desde al menos 3 ángulos)
+├── diseño-3d/
+│   ├── encapsulado.f3d
+│   ├── planos.pdf
+│   └── renders/
+├── testing/
+│   ├── protocolo_pruebas.pdf
+│   └── datos/                 (registros CSV descargados del sistema)
+└── docs/
+    └── reporte_final.pdf
 ```
 
 ---
@@ -167,6 +180,6 @@ paso-peatonal-inteligente/
 ## Integrantes
 
 - Florencia Riveros
-- Benjamin Rojas
 - Joaquin Diaz
+- Benjamin Rojas
 - Jose Maria Llop
